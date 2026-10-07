@@ -1,0 +1,29 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# SPM
+.swiftpm/
+Package.resolved
+.sourcepackages/
+
+# Secrets — never commit real OAuth clients
+GoogleService-Info.plist
+**/Secrets.swift
+**/*Secret*
+.env
+.env.*
+
+# macOS
+.DS_Store
